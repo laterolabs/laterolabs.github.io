@@ -1,0 +1,93 @@
+
+
+@font-face {
+	/* Roman */
+	font-family:'Avenir';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/avenir-roman-webfont.eot');
+	src: url('../fonts/avenir-roman-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/avenir-roman-webfont.woff') format('woff'),
+		url('../fonts/avenir-roman-webfont.ttf') format('truetype'),
+		url('../fonts/avenir-roman-webfont.svg#AvenirRegular') format('svg');
+}
+
+@font-face {
+	/* Bold */
+	font-family:'Avenir';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/avenir-black-webfont.eot');
+	src: url('../fonts/avenir-black-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/avenir-black-webfont.woff') format('woff'),
+		url('../fonts/avenir-black-webfont.ttf') format('truetype'),
+		url('../fonts/avenir-black-webfont.svg#AvenirRegular') format('svg');
+}
+
+
+html, body {
+	font-family: "Avenir", sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+	color: #6c6d70;
+}
+
+body {
+	background: url('../bg-grey.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	letter-spacing: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: inherit;
+}
+
+.site-logo {
+	margin: 6% 1em;
+}
+.site-logo img {height: 2.5em;}
+
+.headline {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+.offices {
+	padding-top: 4%;
+	text-align: center;
+}
+
+address {
+	display: inline-block;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 2em;
+	width: 50%;
+	min-width: 15em;
+	max-width: 22em;
+}
+address a:hover { text-decoration: underline;}
+
+.socialmedia {
+	text-align: center;
+	margin: 4% 1em;
+}
+.socialmedia a { margin: 0 1em;}
+.socialmedia a:hover { opacity: 0.7;}
+
+@media (min-width: 768px) {
+	.headline { font-size: 2rem; }
+	.offices {
+		padding-left: 15%; /* offset grid */
+	}
+}
