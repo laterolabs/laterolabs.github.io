@@ -32,7 +32,7 @@ body {
  color: #6c6d70;
 }
 
-html {
+body {
  background: url("../bg-grey.jpg");
  background-attachment: fixed;
  background-size: cover;
